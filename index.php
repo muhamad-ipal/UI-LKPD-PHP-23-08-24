@@ -66,7 +66,8 @@ include "./public/page/$url.php";
       <ul class="space-y-2 font-medium">
         <li>
           <a href="?page=1"
-            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group 
+            <?= isset($_GET['page']) && $_GET['page'] == 1 ? 'bg-gray-200 dark:bg-gray-700' : '' ?>">
             <svg
               class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
               aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
@@ -81,7 +82,8 @@ include "./public/page/$url.php";
 
         <li>
           <a href="?page=2"
-            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group 
+            <?= isset($_GET['page']) && $_GET['page'] == 2 ? 'bg-gray-200 dark:bg-gray-700' : '' ?>">
             <svg
               class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
               aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
@@ -90,13 +92,14 @@ include "./public/page/$url.php";
                 d="M12 8v4l3 3m6-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
             </svg>
 
-            <span class="flex-1 ms-3 whitespace-nowrap">Extra Hours Compensation</span>
+            <span class="flex-1 ms-3 whitespace-nowrap">Extra Hours</span>
           </a>
         </li>
 
         <li>
           <a href="?page=3"
-            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group 
+            <?= isset($_GET['page']) && $_GET['page'] == 3 ? 'bg-gray-200 dark:bg-gray-700' : '' ?>">
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
               class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -115,7 +118,8 @@ include "./public/page/$url.php";
 
         <li>
           <a href="?page=4"
-            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group 
+            <?= isset($_GET['page']) && $_GET['page'] == 4 ? 'bg-gray-200 dark:bg-gray-700' : '' ?>">
             <svg fill="#6b7280"
               class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
               viewBox="-3.5 0 19 19" xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg">
@@ -134,7 +138,8 @@ include "./public/page/$url.php";
 
         <li>
           <a href="?page=5"
-            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group 
+            <?= isset($_GET['page']) && $_GET['page'] == 5 ? 'bg-gray-200 dark:bg-gray-700' : '' ?>">
             <svg viewBox="0 0 24 24"
               class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
               fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -152,7 +157,8 @@ include "./public/page/$url.php";
 
         <li>
           <a href="?page=6"
-            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group 
+            <?= isset($_GET['page']) && $_GET['page'] == 6 ? 'bg-gray-200 dark:bg-gray-700' : '' ?>">
             <svg viewBox="0 0 1024 1024" class="icon" style="width: 1.5rem;" version="1.1"
               xmlns="http://www.w3.org/2000/svg" fill="#6b7280">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -172,7 +178,8 @@ include "./public/page/$url.php";
 
         <li>
           <a href="?page=7"
-            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group 
+            <?= isset($_GET['page']) && $_GET['page'] == 7 ? 'bg-gray-200 dark:bg-gray-700' : '' ?>">
             <svg viewBox="0 0 24 24" style="width: 1.5rem;" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
               <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -188,7 +195,8 @@ include "./public/page/$url.php";
 
         <li>
           <a href="?page=8"
-            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group 
+            <?= isset($_GET['page']) && $_GET['page'] == 8 ? 'bg-gray-200 dark:bg-gray-700' : '' ?>">
             <svg viewBox="0 0 25 25" fill="none" style="width: 1.5rem;" xmlns="http://www.w3.org/2000/svg">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
               <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -213,7 +221,8 @@ include "./public/page/$url.php";
 
         <li>
           <a href="?page=9"
-            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group 
+            <?= isset($_GET['page']) && $_GET['page'] == 9 ? 'bg-gray-200 dark:bg-gray-700' : '' ?>">
             <svg viewBox="0 0 24 24" fill="none" style="width: 1.5rem;" xmlns="http://www.w3.org/2000/svg">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
               <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -229,7 +238,8 @@ include "./public/page/$url.php";
 
         <li>
           <a href="?page=10"
-            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group 
+            <?= isset($_GET['page']) && $_GET['page'] == 10 ? 'bg-gray-200 dark:bg-gray-700' : '' ?>">
             <svg
               class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
               aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
