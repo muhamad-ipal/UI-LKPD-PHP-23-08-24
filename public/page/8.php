@@ -16,7 +16,7 @@ if (isset($_POST['submit'])) {
 ?>
 
 <div class="absolute w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-  <form method="post" class="max-w-screen-sm p-10 mx-auto dark:bg-gray-800 sm:bg-gray-100 rounded-xl">
+  <form method="post" class="max-w-screen-sm p-10 mx-auto sm:dark:bg-gray-800 sm:bg-gray-100 rounded-xl">
     <div class="mb-5">
       <label for="data" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Input Data (comma-separated)</label>
       <input type="text" id="data" name="data"
